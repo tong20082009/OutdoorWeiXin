@@ -1,0 +1,216 @@
+c:\users\administrator\documents\visual studio 2010\Projects\OutdoorWeiXin\OutdoorWeiXin.Web\obj\Debug\OutdoorWeiXin.Web.csprojResolveAssemblyReference.cache
+c:\users\administrator\documents\visual studio 2010\Projects\OutdoorWeiXin\OutdoorWeiXin.Web\bin\OutdoorWeiXin.Web.dll
+c:\users\administrator\documents\visual studio 2010\Projects\OutdoorWeiXin\OutdoorWeiXin.Web\bin\OutdoorWeiXin.Web.pdb
+c:\users\administrator\documents\visual studio 2010\Projects\OutdoorWeiXin\OutdoorWeiXin.Web\bin\Antlr3.Runtime.dll
+c:\users\administrator\documents\visual studio 2010\Projects\OutdoorWeiXin\OutdoorWeiXin.Web\bin\DotNetOpenAuth.AspNet.dll
+c:\users\administrator\documents\visual studio 2010\Projects\OutdoorWeiXin\OutdoorWeiXin.Web\bin\DotNetOpenAuth.Core.dll
+c:\users\administrator\documents\visual studio 2010\Projects\OutdoorWeiXin\OutdoorWeiXin.Web\bin\DotNetOpenAuth.OAuth.Consumer.dll
+c:\users\administrator\documents\visual studio 2010\Projects\OutdoorWeiXin\OutdoorWeiXin.Web\bin\DotNetOpenAuth.OAuth.dll
+c:\users\administrator\documents\visual studio 2010\Projects\OutdoorWeiXin\OutdoorWeiXin.Web\bin\DotNetOpenAuth.OpenId.dll
+c:\users\administrator\documents\visual studio 2010\Projects\OutdoorWeiXin\OutdoorWeiXin.Web\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+c:\users\administrator\documents\visual studio 2010\Projects\OutdoorWeiXin\OutdoorWeiXin.Web\bin\EntityFramework.dll
+c:\users\administrator\documents\visual studio 2010\Projects\OutdoorWeiXin\OutdoorWeiXin.Web\bin\Microsoft.Web.Infrastructure.dll
+c:\users\administrator\documents\visual studio 2010\Projects\OutdoorWeiXin\OutdoorWeiXin.Web\bin\Microsoft.Web.WebPages.OAuth.dll
+c:\users\administrator\documents\visual studio 2010\Projects\OutdoorWeiXin\OutdoorWeiXin.Web\bin\Newtonsoft.Json.dll
+c:\users\administrator\documents\visual studio 2010\Projects\OutdoorWeiXin\OutdoorWeiXin.Web\bin\OutdoorWeiXin.Model.dll
+c:\users\administrator\documents\visual studio 2010\Projects\OutdoorWeiXin\OutdoorWeiXin.Web\bin\RadioSmart.Common.dll
+c:\users\administrator\documents\visual studio 2010\Projects\OutdoorWeiXin\OutdoorWeiXin.Web\bin\Senparc.Weixin.dll
+c:\users\administrator\documents\visual studio 2010\Projects\OutdoorWeiXin\OutdoorWeiXin.Web\bin\Senparc.Weixin.MP.dll
+c:\users\administrator\documents\visual studio 2010\Projects\OutdoorWeiXin\OutdoorWeiXin.Web\bin\Senparc.Weixin.MP.MvcExtension.dll
+c:\users\administrator\documents\visual studio 2010\Projects\OutdoorWeiXin\OutdoorWeiXin.Web\bin\System.Net.Http.dll
+c:\users\administrator\documents\visual studio 2010\Projects\OutdoorWeiXin\OutdoorWeiXin.Web\bin\System.Net.Http.WebRequest.dll
+c:\users\administrator\documents\visual studio 2010\Projects\OutdoorWeiXin\OutdoorWeiXin.Web\bin\System.Web.Helpers.dll
+c:\users\administrator\documents\visual studio 2010\Projects\OutdoorWeiXin\OutdoorWeiXin.Web\bin\System.Web.Mvc.dll
+c:\users\administrator\documents\visual studio 2010\Projects\OutdoorWeiXin\OutdoorWeiXin.Web\bin\System.Web.Optimization.dll
+c:\users\administrator\documents\visual studio 2010\Projects\OutdoorWeiXin\OutdoorWeiXin.Web\bin\System.Web.Razor.dll
+c:\users\administrator\documents\visual studio 2010\Projects\OutdoorWeiXin\OutdoorWeiXin.Web\bin\System.Web.WebPages.Deployment.dll
+c:\users\administrator\documents\visual studio 2010\Projects\OutdoorWeiXin\OutdoorWeiXin.Web\bin\System.Web.WebPages.dll
+c:\users\administrator\documents\visual studio 2010\Projects\OutdoorWeiXin\OutdoorWeiXin.Web\bin\System.Web.WebPages.Razor.dll
+c:\users\administrator\documents\visual studio 2010\Projects\OutdoorWeiXin\OutdoorWeiXin.Web\bin\WebGrease.dll
+c:\users\administrator\documents\visual studio 2010\Projects\OutdoorWeiXin\OutdoorWeiXin.Web\bin\WebMatrix.Data.dll
+c:\users\administrator\documents\visual studio 2010\Projects\OutdoorWeiXin\OutdoorWeiXin.Web\bin\WebMatrix.WebData.dll
+c:\users\administrator\documents\visual studio 2010\Projects\OutdoorWeiXin\OutdoorWeiXin.Web\bin\log4net.dll
+c:\users\administrator\documents\visual studio 2010\Projects\OutdoorWeiXin\OutdoorWeiXin.Web\bin\Common.Media.dll
+c:\users\administrator\documents\visual studio 2010\Projects\OutdoorWeiXin\OutdoorWeiXin.Web\bin\ChnCharInfo.dll
+c:\users\administrator\documents\visual studio 2010\Projects\OutdoorWeiXin\OutdoorWeiXin.Web\bin\OutdoorWeiXin.Model.pdb
+c:\users\administrator\documents\visual studio 2010\Projects\OutdoorWeiXin\OutdoorWeiXin.Web\bin\EntityFramework.xml
+c:\users\administrator\documents\visual studio 2010\Projects\OutdoorWeiXin\OutdoorWeiXin.Web\bin\Newtonsoft.Json.xml
+c:\users\administrator\documents\visual studio 2010\Projects\OutdoorWeiXin\OutdoorWeiXin.Web\bin\System.Net.Http.xml
+c:\users\administrator\documents\visual studio 2010\Projects\OutdoorWeiXin\OutdoorWeiXin.Web\bin\System.Net.Http.WebRequest.xml
+c:\users\administrator\documents\visual studio 2010\Projects\OutdoorWeiXin\OutdoorWeiXin.Web\bin\System.Web.Helpers.xml
+c:\users\administrator\documents\visual studio 2010\Projects\OutdoorWeiXin\OutdoorWeiXin.Web\bin\System.Web.Mvc.xml
+c:\users\administrator\documents\visual studio 2010\Projects\OutdoorWeiXin\OutdoorWeiXin.Web\bin\System.Web.Razor.xml
+c:\users\administrator\documents\visual studio 2010\Projects\OutdoorWeiXin\OutdoorWeiXin.Web\bin\System.Web.WebPages.xml
+c:\users\administrator\documents\visual studio 2010\Projects\OutdoorWeiXin\OutdoorWeiXin.Web\bin\System.Web.WebPages.Deployment.xml
+c:\users\administrator\documents\visual studio 2010\Projects\OutdoorWeiXin\OutdoorWeiXin.Web\bin\System.Web.WebPages.Razor.xml
+c:\users\administrator\documents\visual studio 2010\Projects\OutdoorWeiXin\OutdoorWeiXin.Web\bin\WebMatrix.Data.xml
+c:\users\administrator\documents\visual studio 2010\Projects\OutdoorWeiXin\OutdoorWeiXin.Web\bin\Microsoft.Web.WebPages.OAuth.xml
+c:\users\administrator\documents\visual studio 2010\Projects\OutdoorWeiXin\OutdoorWeiXin.Web\bin\WebMatrix.WebData.xml
+c:\users\administrator\documents\visual studio 2010\Projects\OutdoorWeiXin\OutdoorWeiXin.Web\bin\DotNetOpenAuth.AspNet.xml
+c:\users\administrator\documents\visual studio 2010\Projects\OutdoorWeiXin\OutdoorWeiXin.Web\bin\DotNetOpenAuth.Core.xml
+c:\users\administrator\documents\visual studio 2010\Projects\OutdoorWeiXin\OutdoorWeiXin.Web\bin\DotNetOpenAuth.OAuth.Consumer.xml
+c:\users\administrator\documents\visual studio 2010\Projects\OutdoorWeiXin\OutdoorWeiXin.Web\bin\DotNetOpenAuth.OAuth.xml
+c:\users\administrator\documents\visual studio 2010\Projects\OutdoorWeiXin\OutdoorWeiXin.Web\bin\DotNetOpenAuth.OpenId.xml
+c:\users\administrator\documents\visual studio 2010\Projects\OutdoorWeiXin\OutdoorWeiXin.Web\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+c:\users\administrator\documents\visual studio 2010\Projects\OutdoorWeiXin\OutdoorWeiXin.Web\bin\zh-Hans\EntityFramework.resources.dll
+c:\users\administrator\documents\visual studio 2010\Projects\OutdoorWeiXin\OutdoorWeiXin.Web\bin\zh-Hans\System.Net.Http.resources.dll
+c:\users\administrator\documents\visual studio 2010\Projects\OutdoorWeiXin\OutdoorWeiXin.Web\bin\zh-Hans\System.Net.Http.WebRequest.resources.dll
+c:\users\administrator\documents\visual studio 2010\Projects\OutdoorWeiXin\OutdoorWeiXin.Web\bin\zh-Hans\System.Web.Helpers.resources.dll
+c:\users\administrator\documents\visual studio 2010\Projects\OutdoorWeiXin\OutdoorWeiXin.Web\bin\zh-Hans\System.Web.Mvc.resources.dll
+c:\users\administrator\documents\visual studio 2010\Projects\OutdoorWeiXin\OutdoorWeiXin.Web\bin\zh-Hans\System.Web.Optimization.resources.dll
+c:\users\administrator\documents\visual studio 2010\Projects\OutdoorWeiXin\OutdoorWeiXin.Web\bin\zh-Hans\System.Web.Razor.resources.dll
+c:\users\administrator\documents\visual studio 2010\Projects\OutdoorWeiXin\OutdoorWeiXin.Web\bin\zh-Hans\System.Web.WebPages.resources.dll
+c:\users\administrator\documents\visual studio 2010\Projects\OutdoorWeiXin\OutdoorWeiXin.Web\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+c:\users\administrator\documents\visual studio 2010\Projects\OutdoorWeiXin\OutdoorWeiXin.Web\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
+c:\users\administrator\documents\visual studio 2010\Projects\OutdoorWeiXin\OutdoorWeiXin.Web\bin\zh-Hans\WebMatrix.Data.resources.dll
+c:\users\administrator\documents\visual studio 2010\Projects\OutdoorWeiXin\OutdoorWeiXin.Web\bin\zh-Hans\Microsoft.Web.WebPages.OAuth.resources.dll
+c:\users\administrator\documents\visual studio 2010\Projects\OutdoorWeiXin\OutdoorWeiXin.Web\bin\zh-Hans\WebMatrix.WebData.resources.dll
+c:\users\administrator\documents\visual studio 2010\Projects\OutdoorWeiXin\OutdoorWeiXin.Web\obj\Debug\OutdoorWeiXin.Web.dll
+c:\users\administrator\documents\visual studio 2010\Projects\OutdoorWeiXin\OutdoorWeiXin.Web\obj\Debug\OutdoorWeiXin.Web.pdb
+F:\zs\OutdoorWeiXin\OutdoorWeiXin.Web\bin\OutdoorWeiXin.Web.dll
+F:\zs\OutdoorWeiXin\OutdoorWeiXin.Web\bin\OutdoorWeiXin.Web.pdb
+F:\zs\OutdoorWeiXin\OutdoorWeiXin.Web\bin\Antlr3.Runtime.dll
+F:\zs\OutdoorWeiXin\OutdoorWeiXin.Web\bin\DotNetOpenAuth.AspNet.dll
+F:\zs\OutdoorWeiXin\OutdoorWeiXin.Web\bin\DotNetOpenAuth.Core.dll
+F:\zs\OutdoorWeiXin\OutdoorWeiXin.Web\bin\DotNetOpenAuth.OAuth.Consumer.dll
+F:\zs\OutdoorWeiXin\OutdoorWeiXin.Web\bin\DotNetOpenAuth.OAuth.dll
+F:\zs\OutdoorWeiXin\OutdoorWeiXin.Web\bin\DotNetOpenAuth.OpenId.dll
+F:\zs\OutdoorWeiXin\OutdoorWeiXin.Web\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+F:\zs\OutdoorWeiXin\OutdoorWeiXin.Web\bin\EntityFramework.dll
+F:\zs\OutdoorWeiXin\OutdoorWeiXin.Web\bin\Microsoft.Web.Infrastructure.dll
+F:\zs\OutdoorWeiXin\OutdoorWeiXin.Web\bin\Microsoft.Web.WebPages.OAuth.dll
+F:\zs\OutdoorWeiXin\OutdoorWeiXin.Web\bin\Newtonsoft.Json.dll
+F:\zs\OutdoorWeiXin\OutdoorWeiXin.Web\bin\OutdoorWeiXin.Model.dll
+F:\zs\OutdoorWeiXin\OutdoorWeiXin.Web\bin\RadioSmart.Common.dll
+F:\zs\OutdoorWeiXin\OutdoorWeiXin.Web\bin\Senparc.Weixin.dll
+F:\zs\OutdoorWeiXin\OutdoorWeiXin.Web\bin\Senparc.Weixin.MP.dll
+F:\zs\OutdoorWeiXin\OutdoorWeiXin.Web\bin\Senparc.Weixin.MP.MvcExtension.dll
+F:\zs\OutdoorWeiXin\OutdoorWeiXin.Web\bin\System.Net.Http.dll
+F:\zs\OutdoorWeiXin\OutdoorWeiXin.Web\bin\System.Net.Http.Formatting.dll
+F:\zs\OutdoorWeiXin\OutdoorWeiXin.Web\bin\System.Net.Http.WebRequest.dll
+F:\zs\OutdoorWeiXin\OutdoorWeiXin.Web\bin\System.Web.Helpers.dll
+F:\zs\OutdoorWeiXin\OutdoorWeiXin.Web\bin\System.Web.Http.dll
+F:\zs\OutdoorWeiXin\OutdoorWeiXin.Web\bin\System.Web.Http.WebHost.dll
+F:\zs\OutdoorWeiXin\OutdoorWeiXin.Web\bin\System.Web.Mvc.dll
+F:\zs\OutdoorWeiXin\OutdoorWeiXin.Web\bin\System.Web.Optimization.dll
+F:\zs\OutdoorWeiXin\OutdoorWeiXin.Web\bin\System.Web.Razor.dll
+F:\zs\OutdoorWeiXin\OutdoorWeiXin.Web\bin\System.Web.WebPages.Deployment.dll
+F:\zs\OutdoorWeiXin\OutdoorWeiXin.Web\bin\System.Web.WebPages.dll
+F:\zs\OutdoorWeiXin\OutdoorWeiXin.Web\bin\System.Web.WebPages.Razor.dll
+F:\zs\OutdoorWeiXin\OutdoorWeiXin.Web\bin\WebGrease.dll
+F:\zs\OutdoorWeiXin\OutdoorWeiXin.Web\bin\WebMatrix.Data.dll
+F:\zs\OutdoorWeiXin\OutdoorWeiXin.Web\bin\WebMatrix.WebData.dll
+F:\zs\OutdoorWeiXin\OutdoorWeiXin.Web\bin\log4net.dll
+F:\zs\OutdoorWeiXin\OutdoorWeiXin.Web\bin\Common.Media.dll
+F:\zs\OutdoorWeiXin\OutdoorWeiXin.Web\bin\ChnCharInfo.dll
+F:\zs\OutdoorWeiXin\OutdoorWeiXin.Web\bin\OutdoorWeiXin.Model.pdb
+F:\zs\OutdoorWeiXin\OutdoorWeiXin.Web\bin\EntityFramework.xml
+F:\zs\OutdoorWeiXin\OutdoorWeiXin.Web\bin\Newtonsoft.Json.xml
+F:\zs\OutdoorWeiXin\OutdoorWeiXin.Web\bin\System.Net.Http.xml
+F:\zs\OutdoorWeiXin\OutdoorWeiXin.Web\bin\System.Net.Http.Formatting.xml
+F:\zs\OutdoorWeiXin\OutdoorWeiXin.Web\bin\System.Net.Http.WebRequest.xml
+F:\zs\OutdoorWeiXin\OutdoorWeiXin.Web\bin\System.Web.Helpers.xml
+F:\zs\OutdoorWeiXin\OutdoorWeiXin.Web\bin\System.Web.Http.xml
+F:\zs\OutdoorWeiXin\OutdoorWeiXin.Web\bin\System.Web.Http.WebHost.xml
+F:\zs\OutdoorWeiXin\OutdoorWeiXin.Web\bin\System.Web.Mvc.xml
+F:\zs\OutdoorWeiXin\OutdoorWeiXin.Web\bin\System.Web.Razor.xml
+F:\zs\OutdoorWeiXin\OutdoorWeiXin.Web\bin\System.Web.WebPages.xml
+F:\zs\OutdoorWeiXin\OutdoorWeiXin.Web\bin\System.Web.WebPages.Deployment.xml
+F:\zs\OutdoorWeiXin\OutdoorWeiXin.Web\bin\System.Web.WebPages.Razor.xml
+F:\zs\OutdoorWeiXin\OutdoorWeiXin.Web\bin\WebMatrix.Data.xml
+F:\zs\OutdoorWeiXin\OutdoorWeiXin.Web\bin\Microsoft.Web.WebPages.OAuth.xml
+F:\zs\OutdoorWeiXin\OutdoorWeiXin.Web\bin\WebMatrix.WebData.xml
+F:\zs\OutdoorWeiXin\OutdoorWeiXin.Web\bin\DotNetOpenAuth.AspNet.xml
+F:\zs\OutdoorWeiXin\OutdoorWeiXin.Web\bin\DotNetOpenAuth.Core.xml
+F:\zs\OutdoorWeiXin\OutdoorWeiXin.Web\bin\DotNetOpenAuth.OAuth.Consumer.xml
+F:\zs\OutdoorWeiXin\OutdoorWeiXin.Web\bin\DotNetOpenAuth.OAuth.xml
+F:\zs\OutdoorWeiXin\OutdoorWeiXin.Web\bin\DotNetOpenAuth.OpenId.xml
+F:\zs\OutdoorWeiXin\OutdoorWeiXin.Web\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+F:\zs\OutdoorWeiXin\OutdoorWeiXin.Web\bin\zh-Hans\EntityFramework.resources.dll
+F:\zs\OutdoorWeiXin\OutdoorWeiXin.Web\bin\zh-Hans\System.Net.Http.resources.dll
+F:\zs\OutdoorWeiXin\OutdoorWeiXin.Web\bin\zh-Hans\System.Net.Http.Formatting.resources.dll
+F:\zs\OutdoorWeiXin\OutdoorWeiXin.Web\bin\zh-Hans\System.Net.Http.WebRequest.resources.dll
+F:\zs\OutdoorWeiXin\OutdoorWeiXin.Web\bin\zh-Hans\System.Web.Helpers.resources.dll
+F:\zs\OutdoorWeiXin\OutdoorWeiXin.Web\bin\zh-Hans\System.Web.Http.resources.dll
+F:\zs\OutdoorWeiXin\OutdoorWeiXin.Web\bin\zh-Hans\System.Web.Http.WebHost.resources.dll
+F:\zs\OutdoorWeiXin\OutdoorWeiXin.Web\bin\zh-Hans\System.Web.Mvc.resources.dll
+F:\zs\OutdoorWeiXin\OutdoorWeiXin.Web\bin\zh-Hans\System.Web.Optimization.resources.dll
+F:\zs\OutdoorWeiXin\OutdoorWeiXin.Web\bin\zh-Hans\System.Web.Razor.resources.dll
+F:\zs\OutdoorWeiXin\OutdoorWeiXin.Web\bin\zh-Hans\System.Web.WebPages.resources.dll
+F:\zs\OutdoorWeiXin\OutdoorWeiXin.Web\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+F:\zs\OutdoorWeiXin\OutdoorWeiXin.Web\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
+F:\zs\OutdoorWeiXin\OutdoorWeiXin.Web\bin\zh-Hans\WebMatrix.Data.resources.dll
+F:\zs\OutdoorWeiXin\OutdoorWeiXin.Web\bin\zh-Hans\Microsoft.Web.WebPages.OAuth.resources.dll
+F:\zs\OutdoorWeiXin\OutdoorWeiXin.Web\bin\zh-Hans\WebMatrix.WebData.resources.dll
+F:\zs\OutdoorWeiXin\OutdoorWeiXin.Web\obj\Debug\ResolveAssemblyReference.cache
+F:\zs\OutdoorWeiXin\OutdoorWeiXin.Web\obj\Debug\OutdoorWeiXin.Web.dll
+F:\zs\OutdoorWeiXin\OutdoorWeiXin.Web\obj\Debug\OutdoorWeiXin.Web.pdb
+E:\www\OutdoorWeiXin\OutdoorWeiXin.Web\bin\OutdoorWeiXin.Web.dll
+E:\www\OutdoorWeiXin\OutdoorWeiXin.Web\bin\OutdoorWeiXin.Web.pdb
+E:\www\OutdoorWeiXin\OutdoorWeiXin.Web\bin\Antlr3.Runtime.dll
+E:\www\OutdoorWeiXin\OutdoorWeiXin.Web\bin\DotNetOpenAuth.AspNet.dll
+E:\www\OutdoorWeiXin\OutdoorWeiXin.Web\bin\DotNetOpenAuth.Core.dll
+E:\www\OutdoorWeiXin\OutdoorWeiXin.Web\bin\DotNetOpenAuth.OAuth.Consumer.dll
+E:\www\OutdoorWeiXin\OutdoorWeiXin.Web\bin\DotNetOpenAuth.OAuth.dll
+E:\www\OutdoorWeiXin\OutdoorWeiXin.Web\bin\DotNetOpenAuth.OpenId.dll
+E:\www\OutdoorWeiXin\OutdoorWeiXin.Web\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+E:\www\OutdoorWeiXin\OutdoorWeiXin.Web\bin\EntityFramework.dll
+E:\www\OutdoorWeiXin\OutdoorWeiXin.Web\bin\Microsoft.Web.Infrastructure.dll
+E:\www\OutdoorWeiXin\OutdoorWeiXin.Web\bin\Microsoft.Web.WebPages.OAuth.dll
+E:\www\OutdoorWeiXin\OutdoorWeiXin.Web\bin\Newtonsoft.Json.dll
+E:\www\OutdoorWeiXin\OutdoorWeiXin.Web\bin\OutdoorWeiXin.Model.dll
+E:\www\OutdoorWeiXin\OutdoorWeiXin.Web\bin\RadioSmart.Common.dll
+E:\www\OutdoorWeiXin\OutdoorWeiXin.Web\bin\Senparc.Weixin.dll
+E:\www\OutdoorWeiXin\OutdoorWeiXin.Web\bin\Senparc.Weixin.MP.dll
+E:\www\OutdoorWeiXin\OutdoorWeiXin.Web\bin\Senparc.Weixin.MP.MvcExtension.dll
+E:\www\OutdoorWeiXin\OutdoorWeiXin.Web\bin\System.Net.Http.dll
+E:\www\OutdoorWeiXin\OutdoorWeiXin.Web\bin\System.Net.Http.WebRequest.dll
+E:\www\OutdoorWeiXin\OutdoorWeiXin.Web\bin\System.Web.Helpers.dll
+E:\www\OutdoorWeiXin\OutdoorWeiXin.Web\bin\System.Web.Mvc.dll
+E:\www\OutdoorWeiXin\OutdoorWeiXin.Web\bin\System.Web.Optimization.dll
+E:\www\OutdoorWeiXin\OutdoorWeiXin.Web\bin\System.Web.Razor.dll
+E:\www\OutdoorWeiXin\OutdoorWeiXin.Web\bin\System.Web.WebPages.Deployment.dll
+E:\www\OutdoorWeiXin\OutdoorWeiXin.Web\bin\System.Web.WebPages.dll
+E:\www\OutdoorWeiXin\OutdoorWeiXin.Web\bin\System.Web.WebPages.Razor.dll
+E:\www\OutdoorWeiXin\OutdoorWeiXin.Web\bin\WebGrease.dll
+E:\www\OutdoorWeiXin\OutdoorWeiXin.Web\bin\WebMatrix.Data.dll
+E:\www\OutdoorWeiXin\OutdoorWeiXin.Web\bin\WebMatrix.WebData.dll
+E:\www\OutdoorWeiXin\OutdoorWeiXin.Web\bin\log4net.dll
+E:\www\OutdoorWeiXin\OutdoorWeiXin.Web\bin\Common.Media.dll
+E:\www\OutdoorWeiXin\OutdoorWeiXin.Web\bin\ChnCharInfo.dll
+E:\www\OutdoorWeiXin\OutdoorWeiXin.Web\bin\OutdoorWeiXin.Model.pdb
+E:\www\OutdoorWeiXin\OutdoorWeiXin.Web\bin\EntityFramework.xml
+E:\www\OutdoorWeiXin\OutdoorWeiXin.Web\bin\Newtonsoft.Json.xml
+E:\www\OutdoorWeiXin\OutdoorWeiXin.Web\bin\System.Net.Http.xml
+E:\www\OutdoorWeiXin\OutdoorWeiXin.Web\bin\System.Net.Http.WebRequest.xml
+E:\www\OutdoorWeiXin\OutdoorWeiXin.Web\bin\System.Web.Helpers.xml
+E:\www\OutdoorWeiXin\OutdoorWeiXin.Web\bin\System.Web.Mvc.xml
+E:\www\OutdoorWeiXin\OutdoorWeiXin.Web\bin\System.Web.Razor.xml
+E:\www\OutdoorWeiXin\OutdoorWeiXin.Web\bin\System.Web.WebPages.xml
+E:\www\OutdoorWeiXin\OutdoorWeiXin.Web\bin\System.Web.WebPages.Deployment.xml
+E:\www\OutdoorWeiXin\OutdoorWeiXin.Web\bin\System.Web.WebPages.Razor.xml
+E:\www\OutdoorWeiXin\OutdoorWeiXin.Web\bin\WebMatrix.Data.xml
+E:\www\OutdoorWeiXin\OutdoorWeiXin.Web\bin\Microsoft.Web.WebPages.OAuth.xml
+E:\www\OutdoorWeiXin\OutdoorWeiXin.Web\bin\WebMatrix.WebData.xml
+E:\www\OutdoorWeiXin\OutdoorWeiXin.Web\bin\DotNetOpenAuth.AspNet.xml
+E:\www\OutdoorWeiXin\OutdoorWeiXin.Web\bin\DotNetOpenAuth.Core.xml
+E:\www\OutdoorWeiXin\OutdoorWeiXin.Web\bin\DotNetOpenAuth.OAuth.Consumer.xml
+E:\www\OutdoorWeiXin\OutdoorWeiXin.Web\bin\DotNetOpenAuth.OAuth.xml
+E:\www\OutdoorWeiXin\OutdoorWeiXin.Web\bin\DotNetOpenAuth.OpenId.xml
+E:\www\OutdoorWeiXin\OutdoorWeiXin.Web\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+E:\www\OutdoorWeiXin\OutdoorWeiXin.Web\bin\zh-Hans\EntityFramework.resources.dll
+E:\www\OutdoorWeiXin\OutdoorWeiXin.Web\bin\zh-Hans\System.Net.Http.resources.dll
+E:\www\OutdoorWeiXin\OutdoorWeiXin.Web\bin\zh-Hans\System.Net.Http.WebRequest.resources.dll
+E:\www\OutdoorWeiXin\OutdoorWeiXin.Web\bin\zh-Hans\System.Web.Helpers.resources.dll
+E:\www\OutdoorWeiXin\OutdoorWeiXin.Web\bin\zh-Hans\System.Web.Mvc.resources.dll
+E:\www\OutdoorWeiXin\OutdoorWeiXin.Web\bin\zh-Hans\System.Web.Optimization.resources.dll
+E:\www\OutdoorWeiXin\OutdoorWeiXin.Web\bin\zh-Hans\System.Web.Razor.resources.dll
+E:\www\OutdoorWeiXin\OutdoorWeiXin.Web\bin\zh-Hans\System.Web.WebPages.resources.dll
+E:\www\OutdoorWeiXin\OutdoorWeiXin.Web\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+E:\www\OutdoorWeiXin\OutdoorWeiXin.Web\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
+E:\www\OutdoorWeiXin\OutdoorWeiXin.Web\bin\zh-Hans\WebMatrix.Data.resources.dll
+E:\www\OutdoorWeiXin\OutdoorWeiXin.Web\bin\zh-Hans\Microsoft.Web.WebPages.OAuth.resources.dll
+E:\www\OutdoorWeiXin\OutdoorWeiXin.Web\bin\zh-Hans\WebMatrix.WebData.resources.dll
+E:\www\OutdoorWeiXin\OutdoorWeiXin.Web\obj\Debug\OutdoorWeiXin.Web.csprojResolveAssemblyReference.cache
+E:\www\OutdoorWeiXin\OutdoorWeiXin.Web\obj\Debug\OutdoorWeiXin.Web.dll
+E:\www\OutdoorWeiXin\OutdoorWeiXin.Web\obj\Debug\OutdoorWeiXin.Web.pdb

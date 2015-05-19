@@ -1,0 +1,30 @@
+c:\users\administrator\documents\visual studio 2010\Projects\OutdoorWeiXin\OutdoorWeiXin.Model\bin\Debug\OutdoorWeiXin.Model.dll
+c:\users\administrator\documents\visual studio 2010\Projects\OutdoorWeiXin\OutdoorWeiXin.Model\bin\Debug\OutdoorWeiXin.Model.pdb
+c:\users\administrator\documents\visual studio 2010\Projects\OutdoorWeiXin\OutdoorWeiXin.Model\obj\Debug\OutdoorWeiXin.Model.dll
+c:\users\administrator\documents\visual studio 2010\Projects\OutdoorWeiXin\OutdoorWeiXin.Model\obj\Debug\OutdoorWeiXin.Model.pdb
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\OutdoorWeiXin\OutdoorWeiXin.Model\bin\Debug\RadioSmart.Common.dll
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\OutdoorWeiXin\OutdoorWeiXin.Model\bin\Debug\log4net.dll
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\OutdoorWeiXin\OutdoorWeiXin.Model\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\OutdoorWeiXin\OutdoorWeiXin.Model\bin\Debug\Common.Media.dll
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\OutdoorWeiXin\OutdoorWeiXin.Model\bin\Debug\ChnCharInfo.dll
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\OutdoorWeiXin\OutdoorWeiXin.Model\obj\Debug\OutdoorWeiXin.Model.csprojResolveAssemblyReference.cache
+F:\zs\OutdoorWeiXin\OutdoorWeiXin.Model\bin\Debug\OutdoorWeiXin.Model.dll
+F:\zs\OutdoorWeiXin\OutdoorWeiXin.Model\bin\Debug\OutdoorWeiXin.Model.pdb
+F:\zs\OutdoorWeiXin\OutdoorWeiXin.Model\bin\Debug\RadioSmart.Common.dll
+F:\zs\OutdoorWeiXin\OutdoorWeiXin.Model\bin\Debug\log4net.dll
+F:\zs\OutdoorWeiXin\OutdoorWeiXin.Model\bin\Debug\Newtonsoft.Json.dll
+F:\zs\OutdoorWeiXin\OutdoorWeiXin.Model\bin\Debug\Common.Media.dll
+F:\zs\OutdoorWeiXin\OutdoorWeiXin.Model\bin\Debug\ChnCharInfo.dll
+F:\zs\OutdoorWeiXin\OutdoorWeiXin.Model\obj\Debug\ResolveAssemblyReference.cache
+F:\zs\OutdoorWeiXin\OutdoorWeiXin.Model\obj\Debug\OutdoorWeiXin.Model.dll
+F:\zs\OutdoorWeiXin\OutdoorWeiXin.Model\obj\Debug\OutdoorWeiXin.Model.pdb
+E:\www\OutdoorWeiXin\OutdoorWeiXin.Model\bin\Debug\OutdoorWeiXin.Model.dll
+E:\www\OutdoorWeiXin\OutdoorWeiXin.Model\bin\Debug\OutdoorWeiXin.Model.pdb
+E:\www\OutdoorWeiXin\OutdoorWeiXin.Model\bin\Debug\RadioSmart.Common.dll
+E:\www\OutdoorWeiXin\OutdoorWeiXin.Model\bin\Debug\log4net.dll
+E:\www\OutdoorWeiXin\OutdoorWeiXin.Model\bin\Debug\Newtonsoft.Json.dll
+E:\www\OutdoorWeiXin\OutdoorWeiXin.Model\bin\Debug\Common.Media.dll
+E:\www\OutdoorWeiXin\OutdoorWeiXin.Model\bin\Debug\ChnCharInfo.dll
+E:\www\OutdoorWeiXin\OutdoorWeiXin.Model\obj\Debug\OutdoorWeiXin.Model.dll
+E:\www\OutdoorWeiXin\OutdoorWeiXin.Model\obj\Debug\OutdoorWeiXin.Model.pdb
+E:\www\OutdoorWeiXin\OutdoorWeiXin.Model\obj\Debug\OutdoorWeiXin.Model.csprojResolveAssemblyReference.cache

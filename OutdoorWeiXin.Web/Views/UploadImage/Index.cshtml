@@ -1,0 +1,29 @@
+﻿@{
+    ViewBag.Title = "上传图片";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<header>
+    <div class="top">
+        <div class="hSearch">
+        <p class="boxSearch">
+            <span class="hInput">
+                <input type="text" id="txtImageName"/>
+            </span><span class="hButtom"><a href="javascript:void(0)" id="chooseImage">上传</a>
+            </span>
+        </p>
+    </div>
+    </div>
+</header>
+<center>
+    <input type="hidden" id="hidTpId" value="@ViewBag.TPId" />
+    <input type="hidden" id="hidImagePath" value="," />
+    <div class="bSubmit">
+        <a href="javascript:void(0)" id="saveImagePath">确定</a>
+    </div>
+</center>
+@section Scripts{
+    @System.Web.Optimization.Scripts.Render("~/Scripts/UploadImage.js")
+    @System.Web.Optimization.Scripts.Render("~/Scripts/ajaxupload/ajaxupload.js")
+    @System.Web.Optimization.Scripts.Render("http://res.wx.qq.com/open/js/jweixin-1.0.0.js")
+    @System.Web.Optimization.Styles.Render(ViewBag.WebRootCss + "/style.css")
+}

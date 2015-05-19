@@ -1,0 +1,35 @@
+﻿@{
+    ViewBag.Title = "我的任务列表 ";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<input type="hidden" id="hfPageIndex" value="1"/>
+<center>
+    <div class="hSearch">
+        <p class="boxSearch">
+            <span class="hInput"><i></i>
+                <input type="text" id="txtProjectName" name="txtProjectName" value="请输入楼宇名称" />
+                <input type="hidden" id="hidType" name="hidType" value="@Model.Type" />
+            </span><span class="hButtom"><a href="javascript:void(0)" id="btnSearch">搜索</a>
+            </span>
+        </p>
+    </div>
+    <div class="boxTab">
+        <ul class="clearfix">
+            <li@(ViewBag.ShowList == "In" ? " class=curr" : "")><a href="@Url.Action("Index", "MyViewTaskProject", new { type = "In" })">进行中</a>
+            </li>
+              <li@(ViewBag.ShowList == "AuditPass" ? " class=curr" : "")><a href="@Url.Action("Index", "MyViewTaskProject", new { type = "AuditPass" })">审核通过</a>
+            </li>
+              <li@(ViewBag.ShowList == "AuditNoPass" ? " class=curr" : "")><a href="@Url.Action("Index", "MyViewTaskProject", new { type = "AuditNoPass" })">审核不通过</a>
+            </li>
+            <li@(ViewBag.ShowList == "Overdue" ? " class=curr" : "")><a href="@Url.Action("Index", "MyViewTaskProject", new { type = "Overdue" })">已过期</a>
+            </li>
+        </ul>
+    </div>
+    <div class="listTask" id="DivMyTaskProjectList">
+    </div>
+</center>
+@section Scripts{
+    @System.Web.Optimization.Scripts.Render("~/Scripts/MyViewTaskProject.js")
+    @System.Web.Optimization.Styles.Render(ViewBag.WebRootCss + "/style.css")
+}
+

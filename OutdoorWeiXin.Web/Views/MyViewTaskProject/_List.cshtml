@@ -1,0 +1,42 @@
+﻿@model OutdoorWeiXin.Web.Models.TaskProjectViewModel
+@foreach (var item in Model.TaskProjectList)
+{
+
+
+    <dl class="l1">
+        <dt><a href="#">
+            <div class="tit">
+                @AutoRadio.RadioSmart.Common.StringHelper.SubString(item.BlockName, 30, true)</div>
+            <div class="date">
+                @(item.BeginDate + "-" + item.EndDate)</div>
+        </a>
+            <div class="open" n="Operating">
+            </div>
+            <div class="state">
+                <span class="green">@item.RegionName</span></div>
+        </dt>
+        <dd class="showSub" style="display: none;">
+            <div class="paly">
+                <span>@item.PointName</span><span>@(item.MediaType + "  （" + item.Price+"元）")</span></div>
+            <div class="time">
+                @(item.StreetAddress)</div>
+            <div class="look">
+                @if (item.Relation == 0)
+                {
+
+                    <a href="@Url.Action("Index", "UploadImage", new { tpid = item.TPId })">上传图片</a>    
+                }
+                else if (item.Relation == 1)
+                { 
+
+                    <span>已完成</span>
+                }
+                else
+                {
+
+                    <span>审核不通过</span>    
+                }
+            </div>
+        </dd>
+    </dl>
+}

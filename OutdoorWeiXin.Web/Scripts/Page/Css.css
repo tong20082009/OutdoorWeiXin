@@ -1,0 +1,8 @@
+﻿.pageBox { padding:20px 0; text-align:center;}
+.page, .fast, .next, .more, .oTotal,.zongshu,.sBtn { display:inline-block; font-family:Tahoma; height:26px; line-height:25px;}
+.page, .fast, .next, .more { font-size:14px; text-align:center; width:26px;}
+.fast, .next { text-indent: -9999px;}
+.inpPage { font-size:14px; padding:4px 0; text-align:center;  margin:0 4px; width:38px;}
+.zongshu,.sBtn,.oTotal{ margin-left:10px}
+.sBtn{ width:40px; height:28px; text-align:center; cursor:pointer; display:inline-block; font-size:13px;}
+button.sBtn{ padding-bottom:2px;}

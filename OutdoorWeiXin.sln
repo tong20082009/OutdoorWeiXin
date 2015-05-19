@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OutdoorWeiXin.Web", "OutdoorWeiXin.Web\OutdoorWeiXin.Web.csproj", "{75FBCF34-AEDE-4370-8EFA-7EA75645C575}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OutdoorWeiXin.Model", "OutdoorWeiXin.Model\OutdoorWeiXin.Model.csproj", "{20501CFD-FEA8-467E-BCE3-78419FF24CB9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{75FBCF34-AEDE-4370-8EFA-7EA75645C575}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75FBCF34-AEDE-4370-8EFA-7EA75645C575}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75FBCF34-AEDE-4370-8EFA-7EA75645C575}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75FBCF34-AEDE-4370-8EFA-7EA75645C575}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20501CFD-FEA8-467E-BCE3-78419FF24CB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20501CFD-FEA8-467E-BCE3-78419FF24CB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20501CFD-FEA8-467E-BCE3-78419FF24CB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20501CFD-FEA8-467E-BCE3-78419FF24CB9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
