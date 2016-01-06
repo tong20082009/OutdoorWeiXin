@@ -1,0 +1,23 @@
+﻿@{
+    ViewBag.Title = "账号绑定";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<header>
+    <div class="top">
+        <div class="hlogo">RadioBuy 留住声音见证声音</div>
+    </div>
+</header>
+<center>
+    <div class="infolist">
+        <p>
+            <strong>账号</strong>@ViewBag.CusName
+        </p>
+        <p>
+            <strong>所属地区</strong>@ViewBag.FullName
+        </p>
+    </div>
+</center>
+@section Scripts{
+    @System.Web.Optimization.Styles.Render("~/Content/jbstyle.css")
+}
+

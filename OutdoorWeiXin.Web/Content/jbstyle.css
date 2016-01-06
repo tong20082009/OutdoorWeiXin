@@ -1,0 +1,174 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+*{margin:0;padding:0}
+body{ background:#efefef; margin:0; padding:0; font-size:1em;}
+table{border-collapse:collapse; border-spacing:0;}
+h1,h2,h3,h4,h5,h6{font-size:100%;}
+ul,li,ol{list-style:none;}
+em,i,s{font-style:normal}
+img{border:0;}
+input,img{vertical-align:middle;}
+input[type="submit"],input[type="button"]{-webkit-appearance:none;}
+input{outline:none; border:none}
+.clear{clear:both;}
+.clearfix:after{display:block;content:'';clear:both;visibility:hidden;}
+.clearfix{*zoom:1;}
+a{outline:0;text-decoration:none; color:#555555;}
+a:hover{text-decoration:none;}
+a:active{star:expression(this.onFocus=this.blur());}
+a:focus{outline:0;}
+
+header{}
+center{ }
+
+/**监播列表**/
+.hSearch{ background:#00a8eb; padding:8px 8px;}
+.hTitel{ text-align:left; padding-bottom:8px; color:#595c62}
+.hTitel em{ font-size:0.8em; color:#858585}
+.boxSearch{ position:relative; height:30px; padding-right:61px;}
+.boxSearch .hInput{ text-align:left; display:inline-block; width:100%; border-radius:5px; height:20px; padding:5px 0; font-size:14px; background:#4dc2f1; text-align:left}
+.hInput i{ float:left; display:inline-block; margin-left:8px; margin-top:2px; vertical-align:middle; width:17px; height:17px; background:url(images/big.png) no-repeat 0 0;}
+.hInput input{ float:left; border:none; background:#4dc2f1; color:#a5e0f8; background:#4dc2f1; height:20px; line-height:20px; margin-left:8px; width:80%; font-size:1em; }
+.hInput:hover input{ color:#fff;}
+.hSearch .hButtom{ position:absolute; right:0; top:0; display:inline-block; }
+.hButtom a{ display:inline-block; color:#fff; padding:0 10px; height:30px; border:none; background:#008dc4; border-radius:5px; line-height:30px; vertical-align:middle}
+.boxTab{}
+.boxTab li{ float:left; display:inline; width:20%; position:relative; height:36px; z-index:1;}
+.boxTab li em{ display:inline-block; color:#86dcfe; font-size:0.75em; letter-spacing:0.5px; vertical-align:1px }
+.boxTab li a{ color:#fff; display:block; height:35px; line-height:35px; border-bottom:#328cb1 solid 1px; background:#0098d5;}
+.boxTab li.curr a{ background:#006cb8;}
+.boxTab li.curr div{ clear:both; height:2px; position:absolute; left:0; top:37px; width:100%; z-index:10;}
+.boxTab li.curr div p{ margin:0 4px; height:2px; background:#006cb8; }
+.listTask{ position:relative;}
+.listTask dl{ clear:both; }
+dl.l1{ background:#fff; border-bottom:#b6b6b6 solid 1px}
+dl.l2{ background:#fff; border-bottom:#b6b6b6 solid 1px}
+.listTask dt{ padding:8px 8px; text-align:left; position:relative;}
+.listTask dt a{ display:block; line-height:24px}
+dt .tit{ font-size:1.1em}
+dt .date{ margin-top:6px; font-size:0.9em; color:#929292}
+dt .state{ position:absolute; right:8px; top:8px;}
+dt .state span{ display:table-cell; height:54px; vertical-align:middle; text-align:right}
+.green{ color:#43bd46}
+.orange{ color:#ff8505;}
+.red{ color:#ea5d40}
+.listTask dd{ color:#8f8f8f; background:#fff; line-height:24px; padding:8px 8px; border-top:#b6b6b6 solid 1px;}
+.paly{ text-align:left;}
+.paly span{ width:50%; display:inline-block}
+.time{ text-align:left; margin-top:6px;}
+.look{ clear:both; text-align:center; margin-top:6px;}
+.look a{ display:inline-block; height:32px; width:60%; background:#00a8eb; border-radius:5px; color:#fff; line-height:32px;}
+
+/**查看报告**/
+.lookSearch{ padding-right:153px;}
+.lookSearch input{ width:70%}
+.radio{ color:#929292; }
+.radio .fm{ font-size:0.9em;}
+.radio .name{ font-size:0.6em; margin-left:10px; vertical-align:1px}
+dl.curr dt{ background:#00a8eb;}
+dl.curr dt a{ font-weight:bold;}
+dl.curr dd{ background:#fafafa;}
+dl.curr dt * { color:#fff;}
+
+/**高级搜索**/
+.hSenior{ background:#efefef; padding:8px 8px;}
+.boxSenior{ position:relative; height:30px; padding-left:127px;}
+.boxSenior .sInput{ text-align:left; display:inline-block; width:100%; border-radius:5px; height:20px; padding:4px 0; font-size:14px; background:#ffffff; text-align:left; border:#afb0b0 solid 1px;}
+.sInput i{ float:left; display:inline-block; margin-left:8px; vertical-align:middle; width:21px; height:20px; background:url(images/date.png) no-repeat 0 0;}
+.sInput input{ float:left; border:none; background:#fff; color:#d9d9d9; height:20px; line-height:20px; margin-left:8px; width:72%; font-size:1em; }
+.sInput:hover input{ color:#8d8d8d;}
+.hSenior .sButtom{ position:absolute; left:0; top:0; display:inline-block; }
+.sButtom a{ display:inline-block; color:#8d8d8d; padding:0 10px; height:28px; border:none; background:#fff; border:#afb0b0 solid 1px; border-radius:5px; line-height:28px; vertical-align:middle}
+.sButtom a.on,.hList li a.on,.hTag a.on{color:#00a8eb;}
+.hList{ border:#afb0b0 solid 1px; border-radius:5px; background:#fff; text-align:left; height:160px; overflow:hidden; overflow-y:scroll;}
+.hList li{ line-height:30px;}
+.hList li a{ display:block; padding-left:8px; color:#8f8f8f}
+.hList li.on{ background:#00a8eb;}
+.hList li.on a{ color:#fff;}
+li.l1{ background:#fff}
+li.l2{ background:#f3f4f6;}
+li.l2 a{ color:#8f8f8f;}
+.hTag { text-align:left}
+.hTag a{ display:inline-block; color:#858585; padding:0 10px; height:28px; border:none; background:#fff; border:#afb0b0 solid 1px; border-radius:5px; line-height:28px; vertical-align:middle; white-space:nowrap; margin-bottom:8px}
+.hTag a:hover{ color:#00a8eb;}
+.hSubmit{ background:#efefef; padding:8px 8px 16px;}
+.hSubmit a{ display:inline-block; height:39px; line-height:39px; background:#00a8eb; color:#fff; width:80%; border-radius:5px}
+
+/**绑定账户**/
+.top{ padding:26px 0;}
+.hlogo{ margin:0 auto; width:150px; height:62px; background:url(images/logo.png) no-repeat; text-indent:-3000px;}
+.binding{ margin:0 auto; width:49px; height:49px; background:url(images/ok.png) no-repeat; margin-bottom:16px}
+.oops{ margin:0 auto; width:116px; height:184px; background:url(images/oops.png) no-repeat; margin-top:40px}
+.results{ margin:0 auto; width:116px; height:184px; background:url(images/noResults.png) no-repeat;}
+.slogan{ clear:both; text-align:center; font-size:1em; color:#c2c2c2; padding-top:10px;}
+.tips{ clear:both; text-align:center; font-size:1.4em; color:#c2c2c2; padding-top:16px; padding-bottom:40px;}
+.noTips{ clear:both; text-align:center; font-size:1em; color:#c2c2c2; padding-top:26px;}
+.noResults{ clear:both; margin:0 auto; width:80%; color:#ff8505; text-align:center; font-size:1em; padding-top:8px; }
+
+.sign{ border-top:#dddddd solid 1px; border-bottom:#dddddd solid 1px; padding:0 12px; background:#fff}
+.user,.pwd{ padding:8px 0 8px 24px; height:22px; text-align:left; position:relative; display:block;}
+.pwd{ border-top:#eaeaea solid 1px}
+.sign i{ position:absolute; display:inline-block; width:22px; height:22px; vertical-align:middle; left:0;}
+.sign input{ width:100%; height:22px; line-height:22px; border:none; background:#fff; color:#b8b8b8; font-size:0.9em;}
+.user i{ background:url(images/user.png) no-repeat;}
+.pwd i{ background:url(images/pwd.png) no-repeat;}
+
+.forgetPwd{ text-align:right; padding:8px 12px; line-height:22px;}
+.forgetPwd a{ color:#aaa;}
+.logSubmit a{ display:inline-block; width:70%; height:40px; line-height:40px; border-radius:5px; background:#00a8eb; color:#4dc2f1;}
+.wxSubmit { padding:16px 0;}
+.wxSubmit a,.wxSubmit input{ display:inline-block; width:70%; height:40px; line-height:40px; border-radius:5px; background:#00a8eb; color:#fff;}
+.wxSubmit input{ text-align:center; font-size:1.1em;}
+.bSubmit a{ display:inline-block; width:70%; height:40px; line-height:40px; border-radius:5px; background:#00a8eb; color:#fff; margin-bottom:16px}
+.infolist{ border:#eaeaea solid 1px; background:#fff; text-align:left; margin-bottom:12px}
+.infolist p{ line-height:28px; padding:5px 12px; border-top:#eaeaea solid 1px; color:#a8a8a8;}
+.infolist p strong{ font-weight:normal; color:#a8a8a8; display:inline-block; min-width:100px}
+
+/**重置密码**/
+.infolist p input{ color:#323232;}
+.code a{ position:absolute; right:12px; top:5px;}
+.code input{ vertical-align:middle; height:28px; width:60px}
+.code a{ display:inline-block; background:#3bc93e; padding:0 5px; vertical-align:middle; border-radius:5px; line-height:28px; font-size:0.9em; color:#fff}
+.code a.wfs{}
+.infolist p{ position:relative;}
+.infolist p em{ color:red; position:absolute; left:3px; top:5px}
+.infolist p.addCode{ background:#ebebeb; border-top:#bbbbbb solid 1px; border-bottom:#bbbbbb solid 1px; margin-bottom:-1px; z-index:100;}
+.addCode input{ background:#ebebeb;}
+.error{ color:red; text-align:center; padding-top:10px}
+
+.company{}
+.company img{max-width: 100%;height: auto;}
+
+/**搜索列表**/
+.searchList{ padding:0 8px; text-align:left;}
+.searchList a{ display:block; line-height:28px; padding:5px 0; border-bottom:1px solid #F2F2F2;color:#555; }
+.searchList a:hover{ background:#f7f7f7;}
+.demo{ text-align:left; border-top:#F2F2F2 solid 1px;}
+.demeTit{ line-height:38px; padding-left:8px; color:#333; background:#fff; border-bottom:#F2F2F2 solid 1px;}
+.demeTit span{ color:#777;}
+.demeCon{}
+.demeCon p{ padding:0 8px; color:#555; position:relative; margin-bottom:1px;}
+.demeCon p:first-child{ border-top:none}
+.demeCon p a{ display:inline-block; background:url(images/song.png) no-repeat center; background-size:100%; width:22px; height:22px; position:absolute; right:8px; top:8px;}
+.demeCon span.on{ background:#0095e4; color:#fff; display:inline-block;width: 80%;}
+.demoSubmit{ text-align:center; padding:16px 0;}
+.demoSubmit a{display:inline-block; width:70%; height:40px; line-height:40px; border-radius:5px; background:#FF9900; color:#fff;}
+
+.demoSearch{ padding-right:94px}
+.listTask dt{ overflow:hidden}
+.listTask dt a *,.listTask dt a .radio *{ font-size:14px; font-family:Tahoma;}
+.listTask dt a{ float:left; display:inline; width:68%;}
+.listTask dt .state{ position:inherit; right:auto; top:auto; float:right;}
+.listTask dt .state span{}
+.open,.close{ float:right; display:inline; width:23px; height:23px; margin-top:14px; margin-left:10px}
+.open{ background:url(images/down.png) no-repeat center;background-size:100%;  }
+.close{background:url(images/up.png) no-repeat center; background-size:100%; }
+.song{ display:inline-block; vertical-align:-5px; background:url(images/song.png) no-repeat center; background-size:100%; width:22px; height:22px; margin-left:20px}
+
+.showSub{ display:none;}
+dl.curr .showSub{ display:block;}
+dl.curr span.song{ background:url(images/whitesong.png) no-repeat; background-size:100%;}
+.demolab{ position:absolute; left:8px; top:0;}
+.demeCon{ padding-left:80px;}
+.demeTit{ position:relative;}

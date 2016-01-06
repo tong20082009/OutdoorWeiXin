@@ -1,0 +1,28 @@
+﻿@{
+    ViewBag.Title = "成功绑定会员";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<script type="text/javascript">
+    function BackHistory() {
+        if (window.history.go(-1) == undefined || window.history.go(-1) == null || window.history.go(-1) == '') {
+            WeixinJSBridge.call('closeWindow');
+        }
+        else {
+            window.history.go(-1);
+        }
+    }
+</script>
+<header>
+    <div class="top">
+        <div class="binding"></div>
+        <div class="slogan">@ViewBag.SuccessMessage</div>
+    </div>
+</header>
+<center>
+<div class="bSubmit">
+	<a href="javascript:void(0)" onclick="BackHistory()">返回</a>
+</div>
+</center>
+@section Scripts{
+    @System.Web.Optimization.Styles.Render("~/Content/jbstyle.css")
+}

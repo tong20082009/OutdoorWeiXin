@@ -1,0 +1,106 @@
+﻿@{
+    ViewBag.Title = "上传图片";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style type="text/css">
+    .bSubmit input
+    {
+        display: inline-block;
+        width: 70%;
+        height: 40px;
+        line-height: 40px;
+        border-radius: 5px;
+        background: #00a8eb;
+        color: #fff;
+        margin-bottom: 16px;
+    }
+</style>
+<header>
+    <div class="top">
+       <div class="top">
+        <div class="slogan">获取位置后即可上传图片</div>
+    </div>
+    </div>
+</header>
+<center>
+        <input type="hidden" name="TpId" id="hidTpId" value="@ViewBag.TPId" />
+        <input type="hidden" name="ImagePath" id="hidImagePath" value="," />
+       @* <input type="hidden" name="SystemType" id="hidSystemType" value="@ViewBag.SystemType" />*@
+        <div class="bSubmit">
+           <a href="javascript:void(0)" id="getLocation"> 获取位置</a><a href="javascript:void(0)" id="chooseImage" style="display:none" >上传</a>
+        </div>
+</center>
+@section Scripts{
+    @System.Web.Optimization.Scripts.Render("~/Scripts/jquery-1.7.1.min.js")
+    @System.Web.Optimization.Scripts.Render("~/Scripts/ajaxupload/ajaxupload.js")
+    @System.Web.Optimization.Styles.Render("~/Content/jbstyle.css")
+     @Scripts.Render("http://res.wx.qq.com/open/js/jweixin-1.0.0.js")
+<script type="text/javascript">
+ var UploadImage = {
+    longitude: '',
+    latitude: ''
+    }
+wx.config({
+        debug: false,
+        appId: '@System.Configuration.ConfigurationManager.AppSettings["AppId"]',
+        timestamp: @ViewBag.Config["timestamp"],
+        nonceStr: '@ViewBag.Config["noncestr"]',
+        signature: '@ViewBag.Config["signature"]',
+        jsApiList: [
+           'getLocation'
+        ]
+    });
+
+$(document).ready(function () {
+    new AjaxUpload('chooseImage', {
+        action: '/UploadImage/AjaxUpload',
+        name: 'myImageFile',
+        responseType: 'json',
+        onSubmit: function (file, ext) {
+            if (!(ext && /^(jpg|jpeg|png)$/.test(ext.toLowerCase()))) {
+                alert("只能上传图片文件");
+                return false;
+            }
+            this.setData({
+                'TpId': $("#hidTpId").val(),
+                'longitude': UploadImage.longitude,
+                'latitude': UploadImage.latitude
+            });
+            $(".slogan").text('上传中...');
+            this.disable();
+        },
+        onComplete: function (file, response) {
+            this.enable();
+            var data = eval("(" + response + ")");
+            if (data.status == '1') {
+                $('#divUploadImageFileStatus').html('');
+                $("#hidImagePath").val(data.filePath);
+                $(".slogan").text('上传成功');
+                window.location.href = "/MyViewTaskProject/Index";
+            }
+            else {
+                alert(data.note);
+            }
+        }
+    });
+    $("#getLocation").click(function () {
+     wx.getLocation({
+      success: function (res) {
+        UploadImage.latitude = res.latitude; // 纬度，浮点数，范围为90 ~ -90
+        UploadImage.longitude = res.longitude; // 经度，浮点数，范围为180 ~ -180。
+        $(".slogan").text('获取位置成功，请上传图片');
+        $("#getLocation").hide();
+        $("#chooseImage").show();
+      }
+    });
+})
+//    if ($("#hidSystemType").val()=='ios') {
+//    $("#getLocation").show();
+//}
+//else {
+//    $(".slogan").text('请上传图片');
+//    $("#chooseImage").show(); 
+//}
+})
+</script>
+}

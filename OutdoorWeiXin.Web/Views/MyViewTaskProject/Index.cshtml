@@ -1,0 +1,62 @@
+﻿@{
+    ViewBag.Title = "我的任务列表 ";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<input type="hidden" id="hfPageIndex" value="1" />
+<center>
+    <div class="hSearch">
+        <p class="boxSearch">
+            <span class="hInput">
+                <i></i>
+                <input type="text" id="txtProjectName" name="txtProjectName" value="请输入楼宇名称" />
+            </span><span class="hButtom">
+                <a href="javascript:void(0)" id="btnSearch">搜索</a>
+            </span>
+        </p>
+    </div>
+    <div class="boxTab">
+        <ul id="ulMediaType" class="clearfix">
+            <li id="ALL"  class="curr" style="width:33%">
+                <a href="javascript:void(0)" onclick="SelectMediaType('ALL')">全部</a>
+            </li>
+            <li id="GM" style="width:33%">
+                <a href="javascript:void(0)" onclick="SelectMediaType('GM')">框架</a>
+            </li>
+            <li id="WIFI" style="width:34%" onclick="SelectMediaType('WIFI')">
+                <a href="javascript:void(0)">4S店wifi</a>
+            </li>
+        </ul>
+    </div>
+    <div class="boxTab">
+        <ul id="ulShowList" class="clearfix">
+            <li id="In" class="curr">
+                <a href="javascript:void(0)" onclick="SelectShowList('In')">已领取</a>
+            </li>
+            <li id="Upload">
+                <a href="javascript:void(0)" onclick="SelectShowList('Upload')">已上传</a>
+            </li>
+            <li id="AuditPass">
+                <a href="javascript:void(0)" onclick="SelectShowList('AuditPass')">审核通过</a>
+            </li>
+            <li id="AuditNoPass">
+                <a href="javascript:void(0)" onclick="SelectShowList('AuditNoPass')">审不通过</a>
+            </li>
+            <li id="Overdue">
+                <a href="javascript:void(0)" onclick="SelectShowList('Overdue')">已过期</a>
+            </li>
+        </ul>
+    </div>
+    <div class="listTask" id="DivMyTaskProjectList">
+    </div>
+    <div id="divPreviewImage" style="display:none;width:240px;height:240px">
+        <img id="imgPreview" src="#" alt="加载中..." />
+    </div>
+</center>
+@section Scripts{
+    @System.Web.Optimization.Scripts.Render("~/Scripts/jquery-1.7.1.min.js")
+    @System.Web.Optimization.Scripts.Render("~/Scripts/artDialog4.1.6/jquery.artDialog.source.js?skin=blue")
+    @System.Web.Optimization.Scripts.Render("~/Scripts/artDialog4.1.6/jquery.alert.js")
+    @System.Web.Optimization.Scripts.Render("~/Scripts/MyViewTaskProject.js")
+    @System.Web.Optimization.Styles.Render("~/Content/jbstyle.css")
+}
+

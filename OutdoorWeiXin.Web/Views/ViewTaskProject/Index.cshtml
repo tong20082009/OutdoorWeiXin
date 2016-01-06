@@ -1,0 +1,77 @@
+﻿@model OutdoorWeiXin.Web.Models.TaskProjectViewModel
+@{
+    ViewBag.Title = "任务列表";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<input type="hidden" id="hfPageIndex" value="1" />
+<input type="hidden" id="hidCity" value="@Model.City" />
+<input type="hidden" id="hidArea" value="@Model.AreaName" />
+<center>
+    <div id="main">
+        <div class="hSearch">
+            <p class="boxSearch">
+                <a href="JavaScript:;" class="fmSearc"><i></i>筛选</a> <span class="hInput">
+                    <i></i>
+                    <input type="text" id="txtProjectName" name="txtProjectName" value="请输入楼宇名称" />
+                </span><span class="hButtom">
+                    <a href="javascript:void(0)" id="btnSearch">搜索</a>
+                </span>
+            </p>
+        </div>
+        <div class="boxTab">
+            <ul id="ulMediaType" class="clearfix">
+                <li id="ALL" class="curr" style="width:33%">
+                    <a href="javascript:void(0)" onclick="SelectMediaType('ALL')">全部</a>
+                </li>
+                <li id="GM" style="width:33%">
+                    <a href="javascript:void(0)" onclick="SelectMediaType('GM')">框架</a>
+                </li>
+                <li id="WIFI" style="width:34%" onclick="SelectMediaType('WIFI')">
+                    <a href="javascript:void(0)">4S店wifi</a>
+                </li>
+            </ul>
+        </div>
+        <div class="listTask" id="DivTaskProjectList">
+        </div>
+    </div>
+    <div class="hSenior">
+        <div class="hCity">
+            <h3>
+                所属城市
+            </h3>
+            <table width="100%">
+                @for (int i = 0; i < (Model.RegionList.Count % 5 == 0 ? Model.RegionList.Count / 5 : Model.RegionList.Count / 5 + 1); i++)
+                {
+                    <tr>
+                        @for (int j = 0; j < 5; j++)
+                        {
+                            if (i * 5 + j < Model.RegionList.Count)
+                            {
+                                <td id="@Model.RegionList[i * 5 + j].RegionId">
+                                    <a href="javascript:void(0);" title="">@Model.RegionList[i * 5 + j].RegionName</a>
+                                </td>
+                            }
+                            else
+                            {
+                                <td>
+                                    <a href="javascript:void(0);" title=""></a>
+                                </td>
+                            }
+                        }
+                    </tr>
+                }
+            </table>
+        </div>
+        <div class="hArea">
+        </div>
+    </div>
+    @*<div class="hSubmit"><a href="#" title="">搜索</a></div>
+        </div>*@
+    <div class="sBg">
+    </div>
+</center>
+@section Scripts{
+    @System.Web.Optimization.Scripts.Render("~/Scripts/jquery-1.7.1.min.js")
+    @System.Web.Optimization.Scripts.Render("~/Scripts/ViewTaskProject.js")
+    @System.Web.Optimization.Styles.Render("~/Content/style.css")
+}

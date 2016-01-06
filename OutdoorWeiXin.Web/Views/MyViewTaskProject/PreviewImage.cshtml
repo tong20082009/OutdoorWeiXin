@@ -1,0 +1,61 @@
+﻿@{
+    ViewBag.Title = "预览图片";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<input type="hidden" id="hfImgPath" value="@ViewBag.ImgPath"/>
+<input type="hidden" id="hfDirectory" value="@ViewBag.Directory"/>
+<div class="wp">
+    <div class="wp-inner" id="wpinner">
+    </div>
+</div>
+<span class="start"><b></b></span>
+<script type="text/javascript">
+    window.onload = function () {
+        var arrPath = document.getElementById("hfImgPath").value.split("|");
+        var newLine = "";
+        var directoryObj = document.getElementById("hfDirectory").value;
+        for (i = 0; i < arrPath.length; i++) {
+            newLine += "<div class=\"page\"><img src=\"" + ('http://' + directoryObj + arrPath[i]) + "\" width=\"100%\" height=\"100%\" onclick=\"DeleteImage('" + document.getElementById("hfImgPath").value + "','" + arrPath[i] + "')\" /></div>";
+        }
+        document.getElementById("wpinner").innerHTML = newLine;
+        $('.wp-inner').fullpage({
+            loop: true
+        });
+    }
+
+    function DeleteImage(imagePath, deletePath) {
+        if (confirm('确定删除该图片吗?')) {
+            var xmlhttp;
+            try {
+                xmlhttp = new XMLHttpRequest();
+            } catch (e) {
+                xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+            }
+
+            xmlhttp.onreadystatechange = function () {
+                if (4 == xmlhttp.readyState) {
+                    if (200 == xmlhttp.status) {
+                        if (xmlhttp.responseText == 'ok') {
+                            window.location.href = "/MyViewTaskProject";
+                        }
+                        else if (xmlhttp.responseText == 'login') {
+                            window.location.href = "/Login";
+                        }
+                        else {
+                            alert("操作出错！");
+                        }
+                    }
+                }
+            }
+            xmlhttp.open("get", "/MyViewTaskProject/DeleteImage?imagePath=" + imagePath + "&deletePath=" + deletePath, true);
+            xmlhttp.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+            xmlhttp.send(null);
+        }
+    }
+</script>
+@section Scripts{
+    @System.Web.Optimization.Styles.Render("~/Content/global.css")
+    @System.Web.Optimization.Styles.Render("~/Content/zepto.fullpage.css")
+    @System.Web.Optimization.Scripts.Render("~/Scripts/zepto/zepto.min.js")
+    @System.Web.Optimization.Scripts.Render("~/Scripts/zepto/zepto.fullpage.js")
+}

@@ -1,0 +1,32 @@
+﻿@{
+    ViewBag.Title = "账号绑定";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<header>
+    <div class="top">
+        <div class="hlogo">RadioBuy 留住声音见证声音</div>
+        <div class="slogan">绑定户外账号 直接领取账号内任务</div>
+        <div class="error" id="divError"></div>
+    </div>
+</header>
+<center>
+    <div class="sign">
+        <p class="user clearfix">
+            <i></i>
+            <input type="text" id="txtCusName" />
+        </p>
+        <p class="pwd clearfix">
+            <i></i>
+            <input type="password" id="txtPassword" />
+        </p>
+    </div>
+    <div class="logSubmit" style="margin-top:20px">
+        <a href="javascript:void(0)" title="绑定" id="submitLogin">绑定</a>
+    </div>
+</center>
+@section Scripts{
+    @System.Web.Optimization.Scripts.Render("~/Scripts/jquery-1.7.1.min.js")
+    @System.Web.Optimization.Scripts.Render("~/Scripts/Login.js")
+    @System.Web.Optimization.Scripts.Render("~/Scripts/placeholder.js")
+    @System.Web.Optimization.Styles.Render("~/Content/jbstyle.css")
+}

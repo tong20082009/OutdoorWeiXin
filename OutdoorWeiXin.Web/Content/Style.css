@@ -1,0 +1,78 @@
+﻿*{margin:0;padding:0}
+body{ background:#efefef; margin:0; padding:0; font-size:1em;}
+table{border-collapse:collapse; border-spacing:0;}
+h1,h2,h3,h4,h5,h6{font-size:100%;}
+ul,li,ol{list-style:none;}
+em,i,s{font-style:normal}
+img{border:0;}
+input,img{vertical-align:middle;}
+input[type="submit"],input[type="button"]{-webkit-appearance:none;}
+input{outline:none; border:none}
+.clear{clear:both;}
+.clearfix:after{display:block;content:'';clear:both;visibility:hidden;}
+.clearfix{*zoom:1;}
+a{outline:0;text-decoration:none; color:#555555;}
+a:hover{text-decoration:none;}
+a:active{star:expression(this.onFocus=this.blur());}
+a:focus{outline:0;}
+
+header{background:#00a8eb; height:45px;}
+center{width:100%; height:100%; position:relative;overflow:hidden; }
+.main{position:absolute; top:0; z-index:1;}
+.sBg{position:absolute; top:0; left:0; z-index:2;width:100%;height:100%; display:none;}
+
+/**监播列表**/
+.hSearch{ background:#00a8eb; padding:8px 8px;}
+.boxSearch{ position:relative; height:30px; padding:0 60px;}
+.boxSearch .hInput{ text-align:left; display:inline-block; width:100%; border-radius:5px; height:20px; padding:5px 0; font-size:14px; background:#4dc2f1; text-align:left}
+.hInput i{ float:left; display:inline-block; margin-left:8px; margin-top:2px; vertical-align:middle; width:17px; height:17px; background:url(images/big.png) no-repeat 0 0;}
+.hInput input{ float:left; border:none; background:#4dc2f1; color:#a5e0f8; background:#4dc2f1; height:20px; line-height:20px; margin-left:8px; width:80%; font-size:1em; }
+.hInput:hover input{ color:#fff;}
+.hSearch .hButtom{ position:absolute; right:0; top:0; display:inline-block; }
+.hButtom a{ display:inline-block; color:#fff; padding:0 10px; height:30px; border:none; background:#008dc4; border-radius:5px; line-height:30px; vertical-align:middle}
+
+.lookSearch{ padding-right:153px;}
+.lookSearch input{ width:70%}
+
+a.fmSearc i{background:url(images/fm_ico.png) no-repeat;}
+a.fmSearc{color:#fff; display:inline-block;  position:absolute; left:0; line-height:30px;}
+a.fmSearc i{display:inline-block; vertical-align:middle; width:16px; height:18px; background-position:0 0; margin-right:4px;}
+.boxTab{}
+.boxTab li{ float:left; display:inline; width:25%; position:relative; height:36px; z-index:1;}
+.boxTab li em{ display:inline-block; color:#86dcfe; font-size:0.75em; letter-spacing:0.5px; vertical-align:1px }
+.boxTab li a{ color:#fff; display:block; height:35px; line-height:35px; border-bottom:#328cb1 solid 1px; background:#0098d5;}
+.boxTab li.curr a{ background:#006cb8;}
+.boxTab li.curr div{ clear:both; height:2px; position:absolute; left:0; top:37px; width:100%; z-index:10;}
+.boxTab li.curr div p{ margin:0 4px; height:2px; background:#006cb8; }
+.listTask{ position:relative;}
+.listTask dl{ clear:both; }
+dl.l1{ background:#fff; border-bottom:#b6b6b6 solid 1px}
+dl.l2{ background:#fff; border-bottom:#b6b6b6 solid 1px}
+.listTask dt{ padding:8px 8px; text-align:left; position:relative;}
+.listTask dt a{ display:block; line-height:24px}
+dt .tit{ font-size:1.1em}
+dt .date{ margin-top:6px; font-size:0.9em; color:#929292}
+dt .state{ position:absolute; right:8px; top:8px;}
+dt .state span{ display:table-cell; height:54px; vertical-align:middle; text-align:right}
+.green{ color:#43bd46}
+.orange{ color:#ff8505;}
+.red{ color:#ea5d40}
+.listTask dd{ color:#8f8f8f; background:#fff; line-height:24px; padding:8px 8px; border-top:#b6b6b6 solid 1px;}
+.paly{ text-align:left;}
+.paly span{ width:50%; display:inline-block}
+.time{ text-align:left; margin-top:6px;}
+.look{ clear:both; text-align:center; margin-top:6px;}
+.look a{ display:inline-block; height:32px; width:60%; background:#00a8eb; border-radius:5px; color:#fff; line-height:32px;}
+
+/**高级搜索**/
+.hSenior{ width:80%; height:100%; position:absolute; top:0; left:-80%; z-index:9}
+.hSenior h3{ text-align:left; padding:8px; color:#595c62;}
+.hSenior table{ background:#fff; border-top:solid 1px #dbdbdb;}
+.hSenior td{text-align:center; height:36px; width:20%;border-bottom:solid 1px #dbdbdb;border-right:solid 1px #dbdbdb; font-size:12px;}
+.hSenior td:nth-last-of-type(1){border-right:none;}
+.hSenior a{ display:block;}
+.hCity td a{ padding:0 5px}
+.hSenior td.on a{ color:#00a8eb;}
+.hSubmit{ text-align:center; padding:8px 0}
+.hSubmit a{ display:inline-block; background:#00a8eb; color:#fff; height:38px; line-height:38px; border-radius:5px; width:80%; }
+.main{position:absolute; top:0; z-index:1;}
